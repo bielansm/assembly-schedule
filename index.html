@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Information</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script type="JavaScript" src="js/app.js"></script>
+</head>
+<body>
+  
+    <!--HEADER-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="img/logo.png" height="35" alt="Alpha Motor Company">
+              <span class="navbar-text nav-plant">XYZ</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"><b>Assembly Execution</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Schedule
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Configuration
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Administration
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+  <div class="content">
+    <!--BREADCRUMB-->
+      <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+      </ol>
+    </nav>
+    <!--MAIN-->
+    <main role="main">
+        <div class="container">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="summary-tab" data-bs-toggle="tab" data-bs-target="#summary" type="button" role="tab" aria-controls="home" aria-selected="true">Summary</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="features-tab" data-bs-toggle="tab" data-bs-target="#features" type="button" role="tab" aria-controls="profile" aria-selected="false">Features</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="blends-tab" data-bs-toggle="tab" data-bs-target="#blends" type="button" role="tab" aria-controls="blends" aria-selected="false">Blends</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="sequences-tab" data-bs-toggle="tab" data-bs-target="#blends" type="button" role="tab" aria-controls="sequences" aria-selected="false">Sequences</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="elements-tab" data-bs-toggle="tab" data-bs-target="#blends" type="button" role="tab" aria-controls="elements" aria-selected="false">Elements</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="summary" role="tabpanel" aria-labelledby="summary-tab">
+              <div class="row order-info">
+                <div class="col">
+                  <table class="table table-borderless">
+                    <tbody>
+                      <tr>
+                        <th scope="row">VIN</th>
+                        <td>1234567890</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">CID</th>
+                        <td>1234567890</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Crosscheck</th>
+                        <td>1234567890</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">National Blend</th>
+                        <td>1234567890</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Plant Blend</th>
+                        <td>1234567890</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col">
+                  <table class="table table-borderless">
+                    <tbody>
+                      <tr>
+                        <th scope="row">Body Rotation</th>
+                        <td>1234567890</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Trim Rotation</th>
+                        <td>1234567890</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Quality</th>
+                        <td>1234567890</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Shippable</th>
+                        <td>1234567890</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Substitution Level</th>
+                        <td>1234567890</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col">
+                  <table class="table table-borderless">
+                    <tbody>
+                      <tr>
+                        <th scope="row">Cool Thing</th>
+                        <td>1234567890</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Main Feature</th>
+                        <td>1234567890</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Serial</th>
+                        <td>1234567890</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Location</th>
+                        <td>1234567890</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Tracking</th>
+                        <td>1234567890</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade show active" id="features" role="tabpanel" aria-labelledby="features-tab"></div>
+            <div class="tab-pane fade show active" id="blends" role="tabpanel" aria-labelledby="blends-tab"></div>
+            <div class="tab-pane fade show active" id="sequences" role="tabpanel" aria-labelledby="sequences-tab"></div>
+            <div class="tab-pane fade show active" id="elements" role="tabpanel" aria-labelledby="elements-tab"></div>
+          </div>
+        </div>
+    </main>
+  </div>
+
+  <!--FOOTER-->
+  <footer class="footer">
+      <div class="container">
+          <span class="text-muted">Alpha Motor Company | All Rights Reserved &copy; <script>document.write(new Date().getFullYear());</script></span>
+      </div>
+  </footer>
+
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
