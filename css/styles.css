@@ -64,3 +64,7 @@ footer > .container {
     white-space: nowrap;
     vertical-align: middle;
 }
+
+#myTab {
+    margin-bottom: 10px;
+}
